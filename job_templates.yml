@@ -1,0 +1,11 @@
+---
+controller_templates:
+ - name: "ACME / ACME Inc. compliance playbook"
+   execution_environment: seed_ee
+   instance_groups:
+     - default
+   inventory: Demo Inventory
+   project: "ACME Inc. Internal Content"
+   playbook: hello_acme.yml
+   job_tags: acme
+   labels: acme
